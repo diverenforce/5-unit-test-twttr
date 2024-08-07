@@ -4,7 +4,9 @@ def main():
 
 
 def shorten(word):
-    ...
+    lst = []
+    for aletter in range(len(word)):
+        lst.append(word[aletter])
 
 
 if __name__ == "__main__":
